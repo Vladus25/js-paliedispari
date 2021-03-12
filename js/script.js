@@ -1,23 +1,24 @@
 // Esrcizio uno palidrome
 
-// var str = prompt('Inserisci la parola:')
-// function palindrome(str) {
+// var word = prompt('Inserisci la parola:')
+// function palindrome(word) {
 //
-//     var len = str.length;
-//     var mid = Math.floor(len/2);
+//   var lng = word.length;
+//   var mid = Math.floor(lng/2);
 //
-//     for ( var i = 0; i < mid; i++ ) {
-//         if (str[i] !== str[len - 1 - i]) {
-//             return false;
-//         }
+//   for ( var i = 0; i < mid; i++ ) {
+//     if (word[i] !== word[lng - 1 - i]) {
+//       return false;
 //     }
+//   }
 //
-//     return true;
+//   return true;
+//
 // }
 //
-// console.log(palindrome(str));
-// var risult = document.getElementById('wordpalin')
-// risult.innerHTML = 'La vostra parola inserita ' + '"' + str + '"' + 'e una palidrome' + ':' + ' ' + palindrome(str);
+// console.log(palindrome(word));
+// var risult = document.getElementById('risult');
+// risult.innerHTML = 'La vostrada parola inserita ' + '"' + word + '"' + 'e una palindrome' + ':' + ' ' + palindrome(word);
 
 
 // Esercizio pari o dispari
@@ -41,26 +42,26 @@ if (pairodd === 'pari' || pairodd === 'dispari') {
   // console.log('La somma dei numeri e:' + sum);
 
   function ifpair() {
-      if (sum % 2 == 0) {
-          var risultWin = document.getElementById('risultWin').innerHTML = 'You Win';
-          // console.log('You Win');
-      } else if(sum % 2 == 1) {
-          var risultLose = document.getElementById('risultLose').innerHTML = 'You Lose';
-          // console.log('You Lose');
-      }
+    if (sum % 2 == 0) {
+      var risultWin = document.getElementById('risultWin').innerHTML = 'You Win';
+      // console.log('You Win');
+    }
+    else if(sum % 2 == 1) {
+      var risultLose = document.getElementById('risultLose').innerHTML = 'You Lose';
+      // console.log('You Lose');
+    }
   }
 
   function ifodd() {
-      if (sum % 2 == 1) {
-          var risultWin = document.getElementById('risultWin').innerHTML = 'You Win';
-          // console.log('You Win');
-      }
-      else if(sum % 2 == 0) {
-          var risultLose = document.getElementById('risultLose').innerHTML = 'You Lose';
-          // console.log('You Lose');
-      }
+    if (sum % 2 == 1) {
+      var risultWin = document.getElementById('risultWin').innerHTML = 'You Win';
+      // console.log('You Win');
+    }
+    else if(sum % 2 == 0) {
+      var risultLose = document.getElementById('risultLose').innerHTML = 'You Lose';
+      // console.log('You Lose');
+    }
   }
-
   if (pairodd == 'pari') {
     ifpair();
   }
