@@ -1,0 +1,13 @@
+/* Intestazioni generali della pagina */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(189, 102, 0);
+}
+.centratura{
+  text-align: center;
+}
