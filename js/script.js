@@ -23,10 +23,10 @@
 
 // Esercizio pari o dispari
 
-var pairodd = prompt('Inserisci "pari" o "dispari":');
-if (pairodd === 'pari' || pairodd === 'dispari') {
-  var modality = document.getElementById('modality').innerHTML = 'Tu hai scelto modalita:' + ' ' + pairodd;
-  // console.log('Tu hai scelto modalita:' + pairodd);
+var pairOdd = prompt('Inserisci "pari" o "dispari":');
+if (pairOdd === 'pari' || pairOdd === 'dispari') {
+  var modality = document.getElementById('modality').innerHTML = 'Tu hai scelto modalita:' + ' ' + pairOdd;
+  // console.log('Tu hai scelto modalita:' + pairOdd);
 
   var number = parseInt(prompt('Inserisci un numero da 1 fino 5:'));
   var numberUser = document.getElementById('numberUser').innerHTML = 'Tu hai scelto numero:' + ' ' + number;
@@ -62,10 +62,10 @@ if (pairodd === 'pari' || pairodd === 'dispari') {
       // console.log('You Lose');
     }
   }
-  if (pairodd == 'pari') {
+  if (pairOdd == 'pari') {
     ifpair();
   }
-  else if (pairodd == 'dispari') {
+  else if (pairOdd == 'dispari') {
     ifodd();
   }
 
